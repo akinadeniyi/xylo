@@ -1,0 +1,20 @@
+body {
+    background: url('/css/architectural-design-architecture-black-and-white-273209.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    text-align: left;
+    /* padding: 20%; */
+}
+
+.btn.btn-success>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 25px
+}

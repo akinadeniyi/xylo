@@ -1,5 +1,5 @@
 body {
-    background: url('/css/architectural-design-architecture-black-and-white-273209.jpg');
+    background: url('/css/design-desk-family-1534924.jpg');
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,14 +7,17 @@ body {
 
 #content {
     text-align: left;
-    /* padding: 20%; */
 }
+
+/* #text {
+    line-height: 20cm
+} */
 
 .btn.btn-success>a {
     text-decoration: none;
     color: #fff;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     font-size: 25px
-}
+} */

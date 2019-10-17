@@ -1,21 +1,30 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "firstName": "Akinade",
-        "lastName": "Akinadeniyi",
-        "department": "Administrative",
-        "emailAddress": "heykay7@gmail.com",
-        "password": "decagon"
-      }
-    ],
-    "leaveApplication": [
-        {
-          "id": 1,
-          "emailAddress": "heykay7@gmail.com",
-          "leaveType": "Annual leave",
-          "startDate": "20-09-2019",
-          "endDate": "01-12-2019"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Akinade",
+      "lastName": "Akinadeniyi",
+      "department": "Administrative",
+      "emailAddress": "heykay7@gmail.com",
+      "password": "decagon"
+    },
+    {
+      "firstname": "Ope",
+      "lastname": "Ajayi",
+      "department": "Finance",
+      "emailaddress": "ope@gmail.com",
+      "password": "ytyiouoiiop",
+      "admin": "false",
+      "id": 2
+    }
+  ],
+  "leaveApplication": [
+    {
+      "id": 1,
+      "emailAddress": "heykay7@gmail.com",
+      "leaveType": "Annual leave",
+      "startDate": "20-09-2019",
+      "endDate": "01-12-2019"
+    }
+  ]
 }

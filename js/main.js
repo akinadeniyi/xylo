@@ -8,23 +8,27 @@ $(document).ready(function () {
         let emailAddress = $('#emailAddress').val();
         let password = $('#password').val();
         let admin = false
+
+        console.log($('#password').val())
+
+
+        let info = {
+            'firstname' : firstName,
+            'lastname'  : lastName,
+            'department' : department,
+            'emailaddress' : emailAddress,
+            'password'   : password,
+            'admin'       : admin
+        }
        
 
         $.ajax({
+            type: 'POST',
             url: "http://localhost:3000/users", 
-            success: function (result) {
-                // $("#div1").html(result);
-                console.log("success")
-            },
-            method: "POST",
-            data: {
-                firstName,
-                lastName,
-                department,
-                emailAddress,
-                password,
-                admin
-            }
+            data : info,
+            dataType : 'json',
+            encode   : true
+            
         });
     })
     

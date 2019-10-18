@@ -1,12 +1,13 @@
 body {
-    background: url('/css/design-desk-family-1534924.jpg');
+    background: url('/css/architecture-buildings-city-373965.jpg');
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #content {
-    text-align: left;
+    text-align: center;
+    margin: 15%;
 }
 
 /* #text {

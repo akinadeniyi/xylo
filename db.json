@@ -5,7 +5,7 @@
       "firstName": "Akinade",
       "lastName": "Akinadeniyi",
       "department": "Administrative",
-      "emailAddress": "heykay7@gmail.com",
+      "emailaddress": "heykay7@gmail.com",
       "password": "decagon"
     },
     {
@@ -16,6 +16,51 @@
       "password": "ytyiouoiiop",
       "admin": "false",
       "id": 2
+    },
+    {
+      "firstname": "yreuiwyireiow",
+      "lastname": "jgfhdgfsdgfuisgdu",
+      "department": "Finance",
+      "emailaddress": "shgdhsghdgsh@gmail.com",
+      "password": "dghgdshdjsjhsgdj",
+      "admin": "false",
+      "id": 3
+    },
+    {
+      "firstname": "cnbvcvcvxmcmvn",
+      "lastname": "gdhgsjdghdhs",
+      "department": "Finance",
+      "emailaddress": "jdhfsjgdjhfgsdfsh@gmail.com",
+      "password": "sgdgasjhgdhsgsjahshs",
+      "admin": "false",
+      "id": 4
+    },
+    {
+      "firstname": "iwqwiuywyqwie",
+      "lastname": "yewyeuwyqiowuiuo",
+      "department": "Finance",
+      "emailaddress": "sdgsgdhaghgdjsa@gmail.com",
+      "password": "sghasghfsgfdgsdgsfsgah",
+      "admin": "false",
+      "id": 5
+    },
+    {
+      "firstname": "gdsajghsgjasga",
+      "lastname": "ahhgsvgvghxvshgxavx",
+      "department": "Finance",
+      "emailaddress": "vsagyhdgyq@gmail.com",
+      "password": "uyghghhwghsgdygysdgydw",
+      "admin": "false",
+      "id": 6
+    },
+    {
+      "firstname": "Ope",
+      "lastname": "Ajayi",
+      "department": "Finance",
+      "emailaddress": "ope@gmail.com",
+      "password": "yyreyuwyeygdygygeyuweydgywuyegd",
+      "admin": "false",
+      "id": 7
     }
   ],
   "leaveApplication": [

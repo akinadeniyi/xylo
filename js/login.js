@@ -14,7 +14,7 @@ $(document).ready(function () {
                 }else if(result.length ===1 && !result[0]["admin"]){
                     // sessionStorage.setItem('user_email', result[i].emailAddress)
                     window.location = './admin.html'
-                }{
+                }else {
                     $('#notice').text("Invalid Emailaddress/Password")
                 }
                 console.log(result)

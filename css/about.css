@@ -1,12 +1,13 @@
   
-/* body {
-    background-image: url('america-analysis-cellphone-926987.jpg');
+body {
+    /* background-image: url('america-analysis-cellphone-926987.jpg'); */
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     background-size: 50% 100%;
     background-repeat: no-repeat;
-} */
+    padding: 20%;
+}
 
 .bringdown {
     text-align: center;

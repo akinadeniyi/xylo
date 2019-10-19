@@ -4,9 +4,9 @@
       "firstName": "Akinade",
       "lastName": "Akinadeniyi",
       "department": "Administrative",
-      "emailaddress": "heykay7@gmail.com",
-      "password": "decagon",
-      "admin": "false",
+      "emailaddress": "admin",
+      "password": "admin123",
+      "admin": true,
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "department": "Finance",
       "emailaddress": "ope@gmail.com",
       "password": "ytyiouoiiop",
-      "admin": "false",
+      "admin": false,
       "id": 2
     },
     {
@@ -24,7 +24,7 @@
       "department": "Finance",
       "emailaddress": "shgdhsghdgsh@gmail.com",
       "password": "dghgdshdjsjhsgdj",
-      "admin": "false",
+      "admin": false,
       "id": 3
     },
     {
@@ -33,7 +33,7 @@
       "department": "Finance",
       "emailaddress": "jdhfsjgdjhfgsdfsh@gmail.com",
       "password": "sgdgasjhgdhsgsjahshs",
-      "admin": "false",
+      "admin": false,
       "id": 4
     },
     {
@@ -42,7 +42,7 @@
       "department": "Finance",
       "emailaddress": "sdgsgdhaghgdjsa@gmail.com",
       "password": "sghasghfsgfdgsdgsfsgah",
-      "admin": "false",
+      "admin": false,
       "id": 5
     },
     {
@@ -51,7 +51,7 @@
       "department": "Finance",
       "emailaddress": "vsagyhdgyq@gmail.com",
       "password": "uyghghhwghsgdygysdgydw",
-      "admin": "false",
+      "admin": false,
       "id": 6
     },
     {
@@ -60,24 +60,146 @@
       "department": "Finance",
       "emailaddress": "ope@gmail.com",
       "password": "yyreyuwyeygdygygeyuweydgywuyegd",
-      "admin": "false",
+      "admin": false,
       "id": 7
+    },
+    {
+      "firstname": "Ken",
+      "lastname": "Akure",
+      "department": "Administrative",
+      "emailaddress": "ken@gmail.com",
+      "password": "12345678",
+      "admin": false,
+      "id": 8
+    },
+    {
+      "firstname": "Femi",
+      "lastname": "oKHDJHSDJ",
+      "department": "Finance",
+      "emailaddress": "femi@gmail.com",
+      "password": "12345678",
+      "admin": "false",
+      "id": 9
+    },
+    {
+      "firstname": "Aisha",
+      "lastname": "Ikhonede",
+      "department": "Maternal",
+      "emailaddress": "aisha@gmail.com",
+      "password": "12345678",
+      "admin": "false",
+      "id": 10
+    },
+    {
+      "firstname": "John ",
+      "lastname": "Doe",
+      "department": "Administrative",
+      "emailaddress": "doe@gmail.com",
+      "password": "12345678",
+      "admin": "false",
+      "id": 11
     }
   ],
   "leaveApplication": [
     {
-      "emailAddress": "heykay7@gmail.com",
-      "leaveType": "Annual leave",
-      "startDate": "20-09-2019",
-      "endDate": "01-12-2019",
-      "id": 1            
+      "emailAddress": "ken@gmail.com",
+      "leaveType": "Paternal",
+      "startDate": "2019-10-30",
+      "endDate": "2019-10-31",
+      "status": "approved",
+      "usersId": 8,
+      "id": 2
     },
     {
-      "emailAddress": "heykay7@gmail.com",
+      "emailAddress": "ken@gmail.com",
+      "leaveType": "Christmas",
+      "startDate": "2019-12-24",
+      "endDate": "2019-12-31",
+      "status": "approved",
+      "usersId": 8,
+      "id": 3
+    },
+    {
+      "emailAddress": "ken@gmail.com",
       "leaveType": "Annual",
-      "startDate": "2019-10-31",
-      "endDate": "2019-11-30",
-      "id": 2
+      "startDate": "2019-10-19",
+      "endDate": "2019-10-26",
+      "status": "pending",
+      "usersId": 8,
+      "id": 4
+    },
+    {
+      "emailAddress": "femi@gmail.com",
+      "leaveType": "Paternal",
+      "startDate": "2019-10-20",
+      "endDate": "2019-10-31",
+      "status": "approved",
+      "usersId": 9,
+      "id": 5
+    },
+    {
+      "emailAddress": "femi@gmail.com",
+      "leaveType": "Easter",
+      "startDate": "2019-10-20",
+      "endDate": "2019-10-31",
+      "status": "declined",
+      "usersId": 9,
+      "id": 6
+    },
+    {
+      "emailAddress": "aisha@gmail.com",
+      "leaveType": "Maternal",
+      "startDate": "2019-10-30",
+      "endDate": "2019-12-31",
+      "status": "declined",
+      "usersId": "10",
+      "id": 7,
+      "email": "aisha@gmail.com",
+      "leave": "Maternal",
+      "startdate": "2019-10-20",
+      "enddate": "2019-10-31"
+    },
+    {
+      "emailAddress": "aisha@gmail.com",
+      "leaveType": "halloween",
+      "startDate": "2019-12-24",
+      "endDate": "2020-01-12",
+      "status": "pending",
+      "usersId": "10",
+      "id": 8,
+      "email": "aisha@gmail.com",
+      "leave": "Christmas Halloween",
+      "startdate": "2019-10-22",
+      "enddate": "2019-10-26"
+    },
+    {
+      "emailAddress": "aisha@gmail.com",
+      "leaveType": "Christmas",
+      "startDate": "2019-12-24",
+      "endDate": "2020-01-12",
+      "status": "pending",
+      "usersId": "10",
+      "id": 9
+    },
+    {
+      "emailAddress": "aisha@gmail.com",
+      "leaveType": "independence day",
+      "startDate": "2019-12-24",
+      "endDate": "2020-01-12",
+      "status": "pending",
+      "usersId": "10",
+      "id": 10,
+      "startdate": "2019-10-20",
+      "enddate": "2019-10-31"
+    },
+    {
+      "emailAddress": "aisha@gmail.com",
+      "leaveType": "Christmas",
+      "startDate": "2019-10-27",
+      "endDate": "2019-10-30",
+      "status": "pending",
+      "usersId": "10",
+      "id": 11
     }
   ]
 }
